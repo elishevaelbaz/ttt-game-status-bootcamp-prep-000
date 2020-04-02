@@ -47,3 +47,5 @@ WIN_COMBINATIONS = [
   def winner(board)
     won?(board) ? won?(board)[0] : nil
   end
+  
+  winner(["X", "O", " ", " ", "O", " ", " ", "O", "X"])
