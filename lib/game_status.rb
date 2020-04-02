@@ -45,7 +45,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    won?(board) ? won?(board)[0] : nil
+    won?(board) ? board[won?(board)[0]] : nil
   end
   
-  puts won?(["X", "O", " ", " ", "O", " ", " ", "O", "X"])
+  puts winner(["X", "O", " ", " ", "O", " ", " ", "O", "X"])
