@@ -35,3 +35,7 @@ WIN_COMBINATIONS = [
   def full?(board)
     board.all? { |element| element != "" && element != " "}
   end
+  
+  def draw?(board)
+    
+  end
