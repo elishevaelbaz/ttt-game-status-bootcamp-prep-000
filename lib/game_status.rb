@@ -27,8 +27,7 @@ WIN_COMBINATIONS = [
       
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         return win_combination
-      else
-        FALSE
+      
       end
     end
   end
