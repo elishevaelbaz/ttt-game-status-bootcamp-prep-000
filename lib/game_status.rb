@@ -45,5 +45,5 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    won?(board) ? win_combination[0]: nil
+    won?(board) ? won?(board)[0] : nil
   end
