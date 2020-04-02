@@ -37,5 +37,5 @@ WIN_COMBINATIONS = [
   end
   
   def draw?(board)
-    apple_stock > 1 ? :eat_apple : :buy_apple
+    full(board) && !won(board) ? true : false
   end
