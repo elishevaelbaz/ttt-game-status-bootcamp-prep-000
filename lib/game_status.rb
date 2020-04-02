@@ -45,5 +45,5 @@ WIN_COMBINATIONS = [
   end
   
   def winner(board)
-    won?(board) ? position_3 : false
+    won?(board) ? win_combination[0]: false
   end
