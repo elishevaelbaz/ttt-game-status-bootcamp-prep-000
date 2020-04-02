@@ -48,4 +48,3 @@ WIN_COMBINATIONS = [
     won?(board) ? board[won?(board)[0]] : nil
   end
   
-  puts winner(["X", "O", " ", " ", "O", " ", " ", "O", "X"])
