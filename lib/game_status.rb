@@ -33,5 +33,5 @@ WIN_COMBINATIONS = [
   end
   
   def full?(board)
-    
+    board.all? { |element| element != "" && element != " "}
   end
