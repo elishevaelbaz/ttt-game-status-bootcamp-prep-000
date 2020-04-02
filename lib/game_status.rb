@@ -43,3 +43,7 @@ WIN_COMBINATIONS = [
   def over?(board)
     full?(board) || won?(board)
   end
+  
+  def winner(board)
+    won?(board) ? position_3 : false
+  end
